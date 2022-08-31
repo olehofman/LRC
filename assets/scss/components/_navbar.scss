@@ -1,0 +1,56 @@
+.navbar {
+  background-color: $white;
+
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:active {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  .bi {
+    font-size: 2rem;
+    color: $black;
+  }
+  .btn-close {
+    background-color: $white;
+    margin-right: 1px;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:active {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .offcanvas {
+    width: 100vw;
+    transition: ease-in-out 0.5s;
+    background-color: $black;
+    color: $white;
+
+    .offcanvas-header {
+      justify-content: space-between;
+    }
+
+    .offcanvas-body {
+      padding-top: 7rem;
+      .nav-item {
+        display: flex;
+        // justify-content: center;
+        .nav-link {
+          color: $white;
+          font-size: $font-5xl;
+        }
+      }
+    }
+  }
+}

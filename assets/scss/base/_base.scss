@@ -1,0 +1,55 @@
+// base
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-primary;
+  height: 100vh;
+  background: linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("/assets/images/LRC-2.jpeg");
+  // background: url("/assets/images/LRC-2.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+// anchor
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+// headings
+
+h1 {
+  font-family: $font-secondary;
+}
+
+h2 {
+  font-family: $font-tertiary;
+  background-color: $black;
+  color: $white;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-family: $font-secondary;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
