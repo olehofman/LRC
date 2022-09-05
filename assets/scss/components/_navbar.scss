@@ -3,6 +3,10 @@
 
   .navbar-toggler {
     border: none;
+    // background-color: $white;
+    i {
+      color: $white;
+    }
     &:focus {
       outline: none;
       box-shadow: none;
@@ -32,7 +36,7 @@
   }
 
   .offcanvas {
-    width: 100vw;
+    // width: 100vw;
     transition: ease-in-out 0.5s;
     background-color: $black;
     color: $white;
