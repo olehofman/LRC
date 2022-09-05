@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+#home {
   font-family: $font-primary;
   height: 100vh;
   // background: linear-gradient(
@@ -16,6 +16,22 @@ body {
   background: url("/assets/images/logo-main-background.jpg");
 
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contact {
+  font-family: $font-primary;
+  height: 100vh;
+  // background: linear-gradient(
+  //     -45deg,
+  //     rgba(255, 255, 255, 0),
+  //     rgba(255, 255, 255, 0.3)
+  //   ),
+  //   url("/assets/images/LRC-2.jpeg");
+  background: url("/assets/images/LRC_Links_uitgelijnd-ai_small02-min.jpeg");
+
+  // background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
