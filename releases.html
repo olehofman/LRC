@@ -1,18 +1,3 @@
-<!-- 
-    Menu link
-        LRC01 tm LRC03
-        LRCDIGI01
-    Landing page met logo
-        Alle nieuwe releases opgelijnd
-    naar beneden scrollen voor contact
-        logo
-        en links naar youtube soundclound bandcamp
-    voor elk label een individuele pagina
-        
-
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,61 +8,17 @@
     <link rel="stylesheet" href="/assets/css/master.css" />
   </head>
   <body>
-    
-    <!-- NAVIGATION -->
-
-    <nav id="navbar" class="navbar fixed-top">
-      <div class="container-fluid">
-       
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-        >
-          <i class="bi bi-text-left"></i>
-        </button>
-        <div
-          class="offcanvas offcanvas-start"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <div></div>
-            <h3 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Lazy Reflex Complex
-            </h3>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link btn-1 active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-1" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-1" href="#">Contact</a>
-              </li>
-          </div>
-        </div>
-      </div>
-    </nav>
-
+    <custom-nav></custom-nav>
     <!-- HEADER -->
-
-
-
-
-    
+    <header class="text-center">
+      <img
+        class="img-fluid mx-auto mt-5"
+        width="200px"
+        src="/assets/images/LRC.jpg"
+        alt="Lazy Reflex Complex - Releases"
+      />
+      <hr />
+    </header>
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/customNav.js"></script>

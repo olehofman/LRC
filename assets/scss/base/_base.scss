@@ -6,34 +6,24 @@ html {
 
 #home {
   font-family: $font-primary;
-  height: 100vh;
-  // background: linear-gradient(
-  //     -45deg,
-  //     rgba(255, 255, 255, 0),
-  //     rgba(255, 255, 255, 0.3)
-  //   ),
-  //   url("/assets/images/LRC-2.jpeg");
+  height: 100%;
+  width: 100%;
   background: url("/assets/images/logo-main-background.jpg");
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #contact {
   font-family: $font-primary;
-  height: 100vh;
-  // background: linear-gradient(
-  //     -45deg,
-  //     rgba(255, 255, 255, 0),
-  //     rgba(255, 255, 255, 0.3)
-  //   ),
-  //   url("/assets/images/LRC-2.jpeg");
-  background: url("/assets/images/LRC.jpg");
-
+  height: 100%;
+  width: 100%;
+  background: url("/assets/images/LRC-2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 // anchor
@@ -41,16 +31,18 @@ html {
 a {
   text-decoration: none;
   position: relative;
+  color: $black;
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 // headings
 
 h1 {
-  font-family: $font-secondary;
 }
 
 h2 {
-  font-family: $font-tertiary;
   background-color: $black;
   color: $white;
   padding: 1rem;
@@ -58,7 +50,6 @@ h2 {
 }
 
 h3 {
-  font-family: $font-secondary;
 }
 
 @media (min-width: 576px) {

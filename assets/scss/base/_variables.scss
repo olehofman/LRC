@@ -6,24 +6,12 @@
 // fonts
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Rubik Maze";
-  src: url("/assets/fonts/RubikMaze-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Bungee Shade";
-  src: url("/assets/fonts/BungeeShade-Regular.ttf") format("truetype");
+  font-family: "Arial";
+  src: url("/assets/fonts/ARIAL.TTF") format("truetype");
   font-display: swap;
 }
 
-$font-primary: "Montserrat", sans-serif;
-$font-secondary: "Rubik Maze", serif;
-$font-tertiary: "Bungee Shade", serif;
+$font-primary: "Arial", sans-serif;
 
 // font sizes
 

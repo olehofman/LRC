@@ -1,29 +1,13 @@
 .navbar {
-  background-color: transparent;
+  background-color: $black;
 
   .navbar-toggler {
     border: none;
-    // background-color: $white;
+
     i {
       color: $white;
+      font-size: 2rem;
     }
-    &:focus {
-      outline: none;
-      box-shadow: none;
-    }
-
-    &:active {
-      outline: none;
-      box-shadow: none;
-    }
-  }
-  .bi {
-    font-size: 2rem;
-    color: $black;
-  }
-  .btn-close {
-    background-color: $white;
-    margin-right: 1px;
     &:focus {
       outline: none;
       box-shadow: none;
@@ -37,22 +21,47 @@
 
   .offcanvas {
     // width: 100vw;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.3s;
     background-color: $black;
     color: $white;
+
+    .btn-close {
+      margin-right: 1px;
+      background-color: $white;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      &:active {
+        outline: none;
+        box-shadow: none;
+      }
+    }
 
     .offcanvas-header {
       justify-content: space-between;
     }
 
     .offcanvas-body {
-      padding-top: 7rem;
       .nav-item {
         display: flex;
         // justify-content: center;
+        .disabled {
+          opacity: 0.5;
+        }
         .nav-link {
+          padding: 0;
           color: $white;
-          font-size: $font-5xl;
+          font-size: $font-xl;
+          &:hover {
+            opacity: 0.75;
+          }
+        }
+        .nav-link-margin {
+          margin-left: 1rem;
+          font-size: $font-lg;
         }
       }
     }
