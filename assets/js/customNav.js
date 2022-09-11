@@ -48,22 +48,22 @@ class CustomNav extends HTMLElement {
                   <a class="nav-link disabled" href="#">Vinyl Releases</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/LRC01.html">LRC01 // 543ff, Jeroen Search</a>
+                  <a class="nav-link nav-link-margin" href="/releases/LRC01.html">LRC01 // 543ff, Jeroen Search</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/LRC02.html">LRC02 // LENSON, Sculpturism, Miller & Keane</a>
+                  <a class="nav-link nav-link-margin" href="/releases/LRC02.html">LRC02 // LENSON, Sculpturism, Miller & Keane</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/LRC03.html">LRC03 // TBD</a>
+                  <a class="nav-link nav-link-margin" href="#">LRC03 // TBD</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link disabled" href="#">Ambient Releases</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/LRC-AMBIENT01.html">LRCAMBIENT01 // 543ff</a>
+                  <a class="nav-link nav-link-margin" href="/releases/LRC-AMBIENT01.html">LRCAMBIENT01 // 543ff</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/LRC-AMBIENT02.html">LRCAMBIENT02 // TBD</a>
+                  <a class="nav-link nav-link-margin" href="#">LRCAMBIENT02 // TBD</a>
                 </li>
             </div>
         </div>

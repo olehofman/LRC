@@ -9,6 +9,9 @@
   </head>
   <body>
     <custom-nav></custom-nav>
+    <button onclick="scrollToTop()" class="scroll-top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
     <!-- HEADER -->
     <header class="text-center">
       <img
@@ -17,8 +20,143 @@
         src="/assets/images/LRC.jpg"
         alt="Lazy Reflex Complex - Releases"
       />
-      <hr />
     </header>
+    <div id="vinyl"></div>
+    <section id="more" class="container">
+      <div class="row">
+        <div class="col">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-black"
+                aria-current="page"
+                href="#vinyl"
+                >- Vinyl -
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#ambient">- Ambient -</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center text-md-start my-4">Vinyl Releases</h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5">
+        <!-- CARD 1 -->
+        <div class="col">
+          <div class="card text-bg-light">
+            <a href="/releases/LRC01.html">
+              <img
+                src="/assets/images/LRC-1.jpeg"
+                class="card-img"
+                alt="LRC's Newest Release!"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-start"
+              >
+                <h3 class="card-title">LRC01 // 543ff, Jeroen Search</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 1 END -->
+
+        <!-- CARD 2 -->
+        <div class="col">
+          <div class="card text-bg-light">
+            <a href="/releases/LRC02.html">
+              <img
+                src="/assets/images/LRC-album-3.jpeg"
+                class="card-img"
+                alt="LRC's Newest Release!"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-start"
+              >
+                <h3 class="card-title">
+                  LRC02 // LENSON, Sculpturism, Miller & Keane
+                </h3>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 2 END -->
+
+        <!-- CARD 3 -->
+        <div class="col">
+          <div class="card text-bg-light">
+            <a href="#">
+              <img
+                src="/assets/images/LRC-album-2.jpeg"
+                class="card-img"
+                alt="LRC's Newest Release!"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-start"
+              >
+                <h3 class="card-title">LRC03 // TBD</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- CARD 3 END -->
+      </div>
+      <div id="ambient"></div>
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center text-md-start my-4">Ambient Releases</h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5">
+        <!-- CARD 1 -->
+        <div class="col">
+          <div class="card text-bg-light">
+            <a href="/releases/LRC-AMBIENT01.html">
+              <img
+                src="/assets/images/LRC-1.jpeg"
+                class="card-img"
+                alt="LRC's Newest Release!"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-start"
+              >
+                <h3 class="card-title">LRCAMBIENT01 // 543ff</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 1 END -->
+
+        <!-- CARD 2 -->
+        <div class="col">
+          <div class="card text-bg-light">
+            <a href="/releases/LRC02.html">
+              <img
+                src="/assets/images/LRC-album-3.jpeg"
+                class="card-img"
+                alt="LRC's Newest Release!"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-start"
+              >
+                <h3 class="card-title">LRC02 // TBD</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 2 END -->
+      </div>
+    </section>
+
+    <custom-footer></custom-footer>
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/customNav.js"></script>

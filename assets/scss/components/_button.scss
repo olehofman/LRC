@@ -7,3 +7,19 @@
     opacity: 0.75;
   }
 }
+
+.scroll-top {
+  position: fixed;
+  color: $black;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  i {
+    font-size: $font-2xl;
+  }
+}
