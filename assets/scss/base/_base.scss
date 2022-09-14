@@ -2,16 +2,22 @@
 
 html {
   scroll-behavior: smooth;
+  letter-spacing: 0.01px;
+  font-size: 0.95rem;
+}
+
+body {
+  font-family: $font-primary;
 }
 
 #home {
   font-family: $font-primary;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: url("/assets/images/logo-main-background.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
 }
 
@@ -19,12 +25,34 @@ html {
   font-family: $font-primary;
   height: 100%;
   width: 100%;
-  background: url("/assets/images/LRC-2.jpeg");
-  background-size: cover;
+  background: url("/assets/images/logo-main-background.jpg");
+  background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
 }
+
+// #releases {
+//   font-family: $font-primary;
+//   height: 100%;
+//   width: 100%;
+//   background: url("/assets/images/logo-main-background.jpg");
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: repeat;
+//   background-attachment: fixed;
+// }
+
+// #LRC01 {
+//   font-family: $font-primary;
+//   height: 100%;
+//   width: 100%;
+//   background: url("/assets/images/logo-main-background.jpg");
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: repeat;
+//   background-attachment: fixed;
+// }
 
 // anchor
 
