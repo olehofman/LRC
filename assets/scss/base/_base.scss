@@ -2,16 +2,10 @@
 
 html {
   scroll-behavior: smooth;
-  letter-spacing: 0.01px;
-  font-size: 0.95rem;
 }
 
 body {
   font-family: $font-primary;
-}
-
-#home {
-  font-family: $font-primary;
   height: 100%;
   width: 100%;
   background: url("/assets/images/logo-main-background.jpg");
@@ -19,40 +13,23 @@ body {
   background-position: center;
   background-repeat: repeat;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
-#contact {
-  font-family: $font-primary;
-  height: 100%;
-  width: 100%;
-  background: url("/assets/images/logo-main-background.jpg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: repeat;
-  background-attachment: fixed;
+.main {
+  background-color: rgba(255, 255, 255, 1);
 }
 
-// #releases {
-//   font-family: $font-primary;
-//   height: 100%;
-//   width: 100%;
-//   background: url("/assets/images/logo-main-background.jpg");
-//   background-size: contain;
-//   background-position: center;
-//   background-repeat: repeat;
-//   background-attachment: fixed;
-// }
+hr {
+  color: $black;
+  border-width: 2px;
+  margin: 16px 0 !important;
+  opacity: 1;
+}
 
-// #LRC01 {
-//   font-family: $font-primary;
-//   height: 100%;
-//   width: 100%;
-//   background: url("/assets/images/logo-main-background.jpg");
-//   background-size: contain;
-//   background-position: center;
-//   background-repeat: repeat;
-//   background-attachment: fixed;
-// }
+.border-right {
+  border: none;
+}
 
 // anchor
 
@@ -82,9 +59,16 @@ h3 {
 }
 
 @media (min-width: 576px) {
+  .main {
+    background-color: rgba(255, 255, 255, 0.97);
+    margin: auto;
+  }
 }
 
 @media (min-width: 992px) {
+  .border-right {
+    border-right: 1px solid $black;
+  }
 }
 
 @media (min-width: 1200px) {

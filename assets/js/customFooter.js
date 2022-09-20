@@ -3,7 +3,7 @@ class CustomFooter extends HTMLElement {
     const datum = new Date().getFullYear().toString();
     super();
     this.innerHTML = `
-      <footer class="container text-center d-flex align-self-end">
+      <footer class="container d-flex justify-content-center">
         <hr />
         <p>&copy; ${datum} - Lazy Reflex Complex</p>
 

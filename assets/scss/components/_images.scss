@@ -36,3 +36,10 @@
 //     opacity: 1;
 //   }
 // }
+
+.img-cover {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}

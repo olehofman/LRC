@@ -1,0 +1,23 @@
+.carousel {
+  .carousel-control-prev-icon {
+    outline: black;
+  }
+  .carousel-indicators {
+    margin-bottom: -80px;
+    button {
+      width: 70px;
+      height: 70px;
+      background-color: #fff;
+      position: relative;
+      border: 1px solid $black;
+
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}

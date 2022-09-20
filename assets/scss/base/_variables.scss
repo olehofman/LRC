@@ -6,16 +6,16 @@
 // fonts
 
 @font-face {
-  font-family: "Arial";
-  src: url("/assets/fonts/CutiveMono-Regular.ttf") format("truetype");
+  font-family: "EurostileExtended";
+  src: url("/assets/fonts/Eurostile\ Extended\ Regular.ttf") format("truetype");
   font-display: swap;
 }
 
-$font-primary: "Arial", sans-serif;
+$font-primary: "EurostileExtended";
 
 // font sizes
 
-$font-xs: 0.75rem;
+$font-xs: 0.7rem;
 $font-sm: 0.875rem;
 $font-base: 1rem;
 $font-lg: 1.125rem;
@@ -35,6 +35,6 @@ $color-primary: #eb512b;
 
 $white: #ffffff;
 $off-white: #fffdf1;
-$black: #0a0a0a;
+$black: #000000;
 $grey: #9ca3af;
 $light-grey: #e9ecef;
