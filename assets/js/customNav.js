@@ -4,7 +4,7 @@ class CustomNav extends HTMLElement {
     this.innerHTML = `
         
    
-      <ul class="nav  justify-content-center">
+      <ul class="nav fixed-bottom justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
