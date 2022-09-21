@@ -1,3 +1,5 @@
+// normal navbar
+
 .nav {
   padding: 1rem;
   background-color: $black;
@@ -35,14 +37,14 @@
 // offcanvas navbar
 
 .navbar {
-  background-color: $black;
-  opacity: 0.8;
+  background-color: transparent;
+  opacity: 0.95;
 
   .navbar-toggler {
     border: none;
 
     i {
-      color: $white;
+      color: $black;
       font-size: 2rem;
     }
     &:focus {
@@ -102,5 +104,11 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 756px) {
+  .navbar {
+    padding: 3rem 2rem;
   }
 }

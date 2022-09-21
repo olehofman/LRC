@@ -21,17 +21,7 @@ class OffcanvasNavbar extends HTMLElement {
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <div></div>
-            <!-- <h3 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Lazy Reflex Complex
-            </h3> -->
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
+          <div class="offcanvas-header">            
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -39,7 +29,7 @@ class OffcanvasNavbar extends HTMLElement {
                 <a class="nav-link active fw-bold" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="/about.html">About</a>
+                <a class="nav-link fw-bold" href="#about">About</a>
               </li>
                 <li class="nav-item">
                   <a class="nav-link fw-bold" href="/releases.html">Releases</a>

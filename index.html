@@ -7,9 +7,45 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/master.css" />
   </head>
-  <body id="home">
+  <body>
     <!-- NAVIGATION -->
-    <customgit-nav></customgit-nav>
+
+    <div class="parallax">
+      <a class="scroll-down-button" href="#about">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="40"
+          fill="currentColor"
+          class="bi bi-chevron-double-down"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+      </a>
+    </div>
+    <offcanvas-nav></offcanvas-nav>
+    <div id="about" class="container-fluid border-bottom border-top">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-8 text-center py-5">
+            <img class="img-fluid" src="/assets/images/LRC-small.jpg" alt="" />
+            <p class="text-center">
+              We are Lazy Reflex Complex. We stand for quality techno. Scroll
+              down for more and listen to our newest releases on Bandcamp.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"></div>
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/customNav.js"></script>

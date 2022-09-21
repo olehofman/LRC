@@ -5,15 +5,17 @@ html {
 }
 
 body {
+}
+
+.parallax {
   font-family: $font-primary;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
-  background: url("/assets/images/logo-main-background.jpg");
+  background: url("/assets/images/LRC-2.jpeg");
   background-size: contain;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden;
 }
 
 .main {
