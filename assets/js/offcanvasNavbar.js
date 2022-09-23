@@ -30,7 +30,7 @@ class OffcanvasNavbar extends HTMLElement {
                 <a class="nav-link active fw-bold" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a onclick="closeMenu()" class="nav-link fw-bold" href="#about">About</a>
+                <a class="nav-link fw-bold" href="/index.html/#about">About</a>
               </li>
                 <li class="nav-item">
                   <a class="nav-link fw-bold" href="#">Releases</a>
