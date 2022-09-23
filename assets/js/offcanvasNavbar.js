@@ -32,16 +32,16 @@ class OffcanvasNavbar extends HTMLElement {
                 <a class="nav-link fw-bold" href="#about">About</a>
               </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-bold" href="/releases.html">Releases</a>
+                  <a class="nav-link fw-bold" href="#">Releases</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link disabled" href="#">Vinyl Releases</a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/releases/LRC01.html">LRC01 // 543ff, Jeroen Search</a>
+                  <a class="nav-link nav-link-margin" href="#">LRC01 // 543ff, Jeroen Search</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/releases/LRC02.html">LRC02 // LENSON, Sculpturism, Miller & Keane</a>
+                  <a class="nav-link nav-link-margin" href="#">LRC02 // LENSON, Sculpturism, Miller & Keane</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link nav-link-margin" href="#">LRC03 // TBD</a>
@@ -50,7 +50,7 @@ class OffcanvasNavbar extends HTMLElement {
                   <a class="nav-link disabled" href="#">Ambient Releases</a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/releases/LRC-AMBIENT01.html">LRCAMBIENT01 // 543ff</a>
+                  <a class="nav-link nav-link-margin" href="#">LRCAMBIENT01 // 543ff</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link nav-link-margin" href="#">LRCAMBIENT02 // TBD</a>
@@ -59,7 +59,7 @@ class OffcanvasNavbar extends HTMLElement {
                   <a class="nav-link fw-bold" href="#">Podcasts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="/releases/LRC01.html">LRCPODCAST01 // 543ff</a>
+                  <a class="nav-link nav-link-margin" href="#">LRCPODCAST01 // 543ff</a>
                 </li>
             </div>
         </div>

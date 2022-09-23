@@ -30,6 +30,35 @@
 
 .scroll-down-button {
   position: absolute;
-  top: 90%;
-  left: 48%;
+  top: 15%;
+  left: 90%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  display: none;
+}
+
+.bounce-3 {
+  animation-name: bounce-3;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce-3 {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 576px) {
+  .scroll-down-button {
+    display: block;
+  }
 }
