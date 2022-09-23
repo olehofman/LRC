@@ -21,7 +21,8 @@ class OffcanvasNavbar extends HTMLElement {
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">            
+          <div class="offcanvas-header justify-content-end"> 
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>           
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -29,7 +30,7 @@ class OffcanvasNavbar extends HTMLElement {
                 <a class="nav-link active fw-bold" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="#about">About</a>
+                <a onclick="closeMenu()" class="nav-link fw-bold" href="#about">About</a>
               </li>
                 <li class="nav-item">
                   <a class="nav-link fw-bold" href="#">Releases</a>
