@@ -12,7 +12,7 @@ html {
   font-family: $font-primary;
   height: 20rem;
   width: 100vw;
-  background: url("/assets/images/LRC-2.jpeg");
+  background: url("/assets/images/hq/LRC_full_effect.svg");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -77,8 +77,9 @@ h3 {
     font-family: $font-primary;
     min-height: 100vh;
     width: 100%;
-    background: url("/assets/images/LRC-2.jpeg");
-    background-size: contain;
+    background: url("/assets/images/hq/LRC_full_effect.svg");
+//     background-size: contain;
+    background-size: 600px 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
